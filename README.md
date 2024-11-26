@@ -18,7 +18,7 @@
 
 ![Результаты парингов](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124onlineparings.png "Результаты парингов")
 
-Для объединения финальных стендингов и результатов каждого раунда на отдельно странице используется скрипт Александра Гвоздарева:
+Для объединения финальных стендингов и результатов каждого раунда используется скрипт Александра Гвоздарева:
 
         function processMatchData() {
           const sheetParings = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Parings');
