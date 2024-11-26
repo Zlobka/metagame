@@ -19,11 +19,8 @@
 
 
 >function processMatchData() {
->
 >  const sheetParings = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Parings');
->
 >  const sheetMatchHistory = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Match History');
->
 >  const sheetPauper = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Pauper');
 >
 > const paringsData = sheetParings.getRange(2, 1, sheetParings.getLastRow() - 1, sheetParings.getLastColumn()).getValues(); // данные пар для обработки
