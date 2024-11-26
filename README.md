@@ -83,7 +83,7 @@
 
 *Статистика Метагейм*
 -----------------
-
+![Метагейм](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/metagame.png "Метагейм")
 
 
 - в дейликах на три раунда формулу необходимо менять ( */ 9*)
