@@ -6,9 +6,15 @@
 
 *Сбор информации*
 
-После каждого дейлика сбор информации осуществляется в excel-таблицу в формате:
+После каждого дейлика
 
-![Excel-таблица](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Excel1.png "Собака смотрит влево")
+![Стендинги](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/7%20сентября%202023.jpg "Стендинги")
+
+
+
+сбор информации осуществляется в excel-таблицу в формате:
+
+![Excel-таблица](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Excel%207%20сентября%202023.png "Excel-таблица")
 
 
 
