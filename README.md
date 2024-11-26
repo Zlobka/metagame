@@ -18,7 +18,7 @@
 
 ![Результаты парингов](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124onlineparings.png "Результаты парингов")
 
-Для объединения финальный стендингов и результатов каждого раунда на отдельно странице используется скрипт Александра Гвоздарева:
+Для объединения финальных стендингов и результатов каждого раунда на отдельно странице используется скрипт Александра Гвоздарева:
 
         function processMatchData() {
           const sheetParings = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Parings');
@@ -75,9 +75,10 @@
           return { deck: '', club: '' }; // Если колода и клуб не найдены
         }
 
-Винрейт в финальных стендингах считается по формуле:
+в результате чего получаем таблицу следующего содержания:
 
-    количество очков / 12
+![Match History](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124matchhistory.png "Match History")
+
 
 что создает следующие проблемы:
 
