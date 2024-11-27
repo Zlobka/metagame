@@ -108,6 +108,14 @@
 
 ![KuldothaGrixis](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/KuldothaGrixis.png "KuldothaGrixis")
 
+Нижние диаграмма и график работают независимо от верхних таблиц и показывают:
+
+- Метагейм за выбранный период - % колод на турнирах за интересующий период.
+
+- Игроки и набранные очки - при выборе колоды в диаграмме отображает количество игроков данной колодой на турнире (зеленый) и среднее количество набранных ими очков (синий):
+
+![Metagamedown](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Metagamedown.png "Metagamedown")
+
 
 
 - в дейликах на три раунда формулу необходимо менять ( */ 9*)
