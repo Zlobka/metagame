@@ -18,7 +18,7 @@
 
 ![Результаты парингов](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124onlineparings.png "Результаты парингов")
 
-Для объединения финальных стендингов и результатов каждого раунда используется скрипт Александра Гвоздарева:
+Для объединения финальных стендингов и результатов каждого раунда используется скрипт:
 
         function processMatchData() {
           const sheetParings = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Parings');
@@ -75,7 +75,7 @@
           return { deck: '', club: '' }; // Если колода и клуб не найдены
         }
 
-в результате чего получаем таблицу следующего содержания:
+В результате получаем таблицу следующего содержания:
 
 ![Match History](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124matchhistory.png "Match History")
 
@@ -105,5 +105,5 @@ https://lookerstudio.google.com/u/0/reporting/512b58d5-1cbb-4203-8319-4e73df4e50
 -----------------
 
 
-***Без Андрея Волкова, Владимира Коршунова, Егора Лапина, Александра Гвоздарева и Даниила Орехова этот проект не был бы реализован.***
+***Без Егора Лапина, Александра Гвоздарева и Даниила Орехова этот проект не был бы реализован.***
 
