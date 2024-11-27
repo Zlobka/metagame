@@ -14,11 +14,11 @@
 
 - стендинги
 
-![Стендинги](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124onlinestandings.png "Стендинги")
+![Стендинги](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/251124onlinestandings.png "Стендинги")
 
 - паринги
 
-![Результаты парингов](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124onlineparings.png "Результаты парингов")
+![Результаты парингов](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/251124onlineparings.png "Результаты парингов")
 
 Для объединения финальных стендингов и результатов каждого раунда используется скрипт:
 
@@ -79,7 +79,7 @@
 
 В результате получаем таблицу следующего содержания:
 
-![Match History](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/251124matchhistory.png "Match History")
+![Match History](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/251124matchhistory.png "Match History")
 
 где винрейт *каждого матча* считается по формуле: *счет игрока / (счет игрока + счет оппонента) * 100*.
 
@@ -94,13 +94,13 @@
   
 - сортировка в каждой таблице - по количеству сыгранных матчей (раундов).
 
-![Метагейм](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/metagame.png "Метагейм")
+![Метагейм](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/metagame.png "Метагейм")
 
 Подсчет винрейта осуществлятся по формуле: *сумма винрейтов каждого матча / количетсво матчей*. Таким образом, при 4 матчах 2-0 винрейт составляет 100%, при 4 матчах 2-1 - 66,67%, при 3 матчах 2-1 и 1 матче 0-2 - *66,67 * 3 / 4* = 50,00%.
 
 Выбрать интересующую колоду (Red Kuldotha) можно как в верхем меню, так и в таблице "Винрейт колод":
 
-![Kuldotha](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Kuldothawinrate.png "Kuldotha")
+![Kuldotha](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/Kuldothawinrate.png "Kuldotha")
 
 При выборе интересующей колоды в таблице "Оппоненты" указаны колоды оппонентов, количество сыгранных матчей и винрейт против них.
 
@@ -108,7 +108,7 @@
 
 Можно указать колоду оппонентов. В таком случае получаем статистику винрейта выбранной колоды (Red Kuldotha) против Grixis Affinity и кто, сколько и как играл Red Kuldotha против Grixis Affinity:
 
-![KuldothaGrixis](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/KuldothaGrixis.png "KuldothaGrixis")
+![KuldothaGrixis](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/KuldothaGrixis.png "KuldothaGrixis")
 
 Нижние диаграмма и график работают независимо от верхних таблиц и показывают:
 
@@ -116,7 +116,7 @@
 
 - Игроки и набранные очки - при выборе колоды в диаграмме отображает количество игроков данной колодой на турнире (зеленый) и среднее количество набранных ими очков (синий):
 
-![Metagamedown](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Metagamedown.png "Metagamedown")
+![Metagamedown](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/Metagamedown.png "Metagamedown")
 
 *Личная статистика*
 ---------------------
@@ -133,7 +133,7 @@
 
 В фильтре "Игрок" указываем интересующего игрока.
 
-![Личная статистика](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/myall.png "Личная статистика")
+![Личная статистика](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/myall.png "Личная статистика")
 
 Таблица "Декчойс" показывает колоды, которыми играл участник, сыгранные матчи данной колодой и винрейт.
 
@@ -143,23 +143,23 @@
 
 Каждая табличка влияет друг на друга, поэтому в примере ниже можно увидеть, что за все время (сохраненных сведений в статистике) Харитонов с общим винрейтом 56,41% сыграл 5 матчей Glee Combo против Grixis Affinity с винрейтом 50% против пяти разных оппонентов (2-1, 2-1, 1-2, 1-1, 1-2):
 
-![Личная статистика Гли Гриксис](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/mygleegrixis.png "Личная статистика Гли Гриксис")
+![Личная статистика Гли Гриксис](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/mygleegrixis.png "Личная статистика Гли Гриксис")
 
 Если фильтром выбрать только оппонента, то отображаются все колоды игрока и оппонента, когда они играли друг с другом. Например, Хрипков играл с Лаврешиным 14 раз с винрейтом 45,24%:
 
-![Хрипков Лаврешин](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/KhripkovLavreshin.png "Хрипков Лаврешин")
+![Хрипков Лаврешин](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/KhripkovLavreshin.png "Хрипков Лаврешин")
 
 Выбрав в средней таблице Azorius Familiars видим, какими колодами играх Хрипков, когда Лаврешин играл Фамильярами (победа и поражение с одинаковым счетом Grixis Affinity, 0-2 Caw Gates, 2-0 Poison Storm):
 
-![Хрипков Лаврешин конкретно](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/KhripkovLavreshin%20konkretno.png "Хрипков Лаврешин конкретно")
+![Хрипков Лаврешин конкретно](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/KhripkovLavreshin%20konkretno.png "Хрипков Лаврешин конкретно")
 
 График "Дейлки" показывает колоды и количество набранных очков от первого до последнего турнира игрока, в котором он принимал участие. Фильтры на график не влияют.
 
-![Дейлики](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Dayly.png "Дейлики")
+![Дейлики](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/Dayly.png "Дейлики")
 
 Внизу страницы эло-рейтинг, где зафиксированный столбец - колоды игрока. Здесь винрейт немного отличается (например, *2-1 + 0-2 = 2-3, 2 / 5 =* **40%**) от табличек выше (*2-1 - 66,67%, 0-2 - 0%, (66,67 + 0) / 2 =* **33,33%**):
 
-![Нижняя](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/Down.png "Нижняя")
+![Нижняя](https://raw.githubusercontent.com/Zlobka/metagame/refs/heads/main/pictures/Down.png "Нижняя")
 
 ***Без Александра Гвоздарева и Даниила Орехова этот проект не был бы реализован.***
 
